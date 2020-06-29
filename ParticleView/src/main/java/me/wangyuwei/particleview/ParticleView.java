@@ -63,6 +63,15 @@ public class ParticleView extends View {
 
     //粒子文案
     private String mParticleText;
+
+    public String getmParticleText() {
+        return mParticleText;
+    }
+
+    public void setmParticleText(String mParticleText) {
+        this.mParticleText = mParticleText;
+    }
+
     //主文案
     private String mHostText;
     //扩散宽度
@@ -83,6 +92,8 @@ public class ParticleView extends View {
 
     private PointF mStartMaxP, mEndMaxP;
     private PointF mStartMinP, mEndMinP;
+
+
 
     public ParticleView(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
